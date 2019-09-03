@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Rockstar!</title>
+		<script src="./beRockstar.js"></script>
+	</head>
+	<body>
+		<h1>Rockstar <button onclick="play('rockOn')">Rock on!</button></h1>
+		<h2>Waves</h2>
+		<button onclick="play('sine')">Sine Wave</button>
+		<button onclick="play('sq')">Square Wave</button>
+		<button onclick="play('tri')">Triangle Wave</button>
+		<button onclick="play('saw')">Sawtooth Wave</button>
+		<h2>Frequency</h2>
+		<button onclick="play('f261')">261.6Hz (C4)</button>
+		<button onclick="play('f440')">440Hz (A4)</button>
+		<button onclick="play('f830')">830.6Hz (G#5)</button>
+		<h3>Waves + Frequncy + Pinch of time</h3>
+		<button onclick="play('sq174')">174.6Hz (F3) - Square</button>
+		<button onclick="play('saw1109')">1109Hz (C#6) - Sawtooth</button>
+		<button onclick="play('tri87')">87.31Hz (F2) - Triangle</button>
+		<br />
+		<br />
+		<p>Courtesy of: https://marcgg.com/blog/2016/11/01/javascript-audio/</p>
+	</body>
+</html>
